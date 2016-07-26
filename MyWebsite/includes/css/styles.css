@@ -1,0 +1,105 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features{
+   text-align: center;
+
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+.well .page-header{
+   margin-top: 0;
+}
+.well .page-header h1{
+   margin-top: 0;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .navbar-nav{
+      margin-top: 20px;
+   }
+   .navClass{
+    
+   }
+   #searchInput{
+      width: 200px;
+   }
+
+   .formClass{
+      margin-top: 25px;
+   }
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel .item{height: 400px;}
+#slide1{
+   background: url('../../images/carousel_large_01.jpg')top center no-repeat;
+}
+#slide2{
+   background: url('../../images/carousel_large_02.jpg')top center no-repeat;
+}
+#slide3{
+   background: url('../../images/carousel_large_03.jpg')top center no-repeat;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.well{
+   margin: 20px 0px;
+}
+
+.alert{
+   margin-top: 20px;
+   display: none;
+
+
+}
+
+/* --------------------------------------
+   3 panels
+   -------------------------------------- */
+.img-circle{
+   height: 200px;
+   width: 200px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
