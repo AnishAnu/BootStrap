@@ -62,7 +62,10 @@ Notes:	 Hand coded for Udemy.com
 #slide3{
    background: url('../../images/Car3_medium.jpg')top center no-repeat;
 }
-
+#myCarousel{
+   margin-left: 0px;
+   margin-right: 0px;
+}
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
@@ -102,6 +105,12 @@ footer a{
    color: blue;
 }
 
+/* More Info */
+#moreInfo .pull-right
+{
+   display: inline;
+   overflow: hidden;
+}
 
 
 
